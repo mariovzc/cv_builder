@@ -34,9 +34,11 @@ make check file=path/to/old-resume.pdf
 
 ## The recruiter loop (Claude Code)
 
-Open this repo in [Claude Code](https://claude.com/claude-code) and say
-*"improve my CV"* (or *"mejora mi hoja de vida"* — it works in Spanish and
-English). The bundled `cv-recruiter` skill will:
+The full recruiter spec lives in [`RECRUITER.md`](RECRUITER.md) and is
+agent-agnostic: any AI assistant that reads `AGENTS.md` (Claude Code, Codex,
+Cursor, Gemini CLI, ...) follows the same rubric, and the hard checks run in
+plain code via `make`. Open this repo in your assistant and say *"improve my
+CV"* (or *"mejora mi hoja de vida"* — it works in Spanish and English). It will:
 
 1. **Intake** — read your existing PDF/Word CV and convert it to YAML, or
    interview you from scratch.

@@ -16,9 +16,9 @@ CV builder: data-driven Harvard-style, ATS-friendly resume generator with a "bru
 - `examples/sample-person.{en,es}.yaml` — fictional person; template, demo and test fixture.
 - `cvs/` — real people (gitignored). One YAML per person per language/offer variant: `name.en.yaml`, `name.es.offer-x.yaml`.
 - `tests/` — pytest, runs in Docker via `make test`.
-- `.claude/skills/cv-recruiter/` — the recruiter skill: intake (parse an existing PDF/Word CV into YAML), interview, generate, grade with the 100-point rubric, iterate until TOP (85+).
+- `RECRUITER.md` — **the canonical, agent-agnostic recruiter spec**: intake (parse an existing PDF/Word CV into YAML), interview, generate, grade with the 100-point rubric, iterate until TOP (85+). Any AI assistant working on a CV in this repo follows it. `.claude/skills/cv-recruiter/` is just a thin trigger pointing there for Claude Code.
 
-## Workflow (orchestrated by the skill)
+## Workflow (full spec in RECRUITER.md)
 
 1. Intake: existing PDF/Word → read it, convert to `cvs/<person>.<lang>.yaml`. No CV → interview from scratch.
 2. Interview: fill gaps one question at a time (golden rule).
