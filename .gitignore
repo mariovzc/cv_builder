@@ -1,0 +1,12 @@
+# Real CV data — never committed (personal information)
+cvs/*
+!cvs/.gitkeep
+
+# Generated PDFs anywhere
+*.pdf
+
+# Python
+__pycache__/
+.pytest_cache/
+venv/
+.venv/

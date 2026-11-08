@@ -1,0 +1,44 @@
+# Fictional person — template, demo and test fixture. Copy to cvs/ for real people.
+lang: en
+max_pages: 1
+name: Sam Rivera
+headline: Backend Engineer
+contact:
+  - "Springfield, USA · +1 555 010 0100 · sam.rivera@example.com"
+  - "linkedin.com/in/sample · github.com/sample"
+summary: >-
+  Backend Engineer with 6+ years building APIs and data pipelines in Python.
+  Specialized in payment integrations and event-driven systems on AWS.
+  Led the migration of a monolith to microservices serving 2M requests/day.
+experience:
+  - company: Acme Corp
+    role: Senior Backend Engineer
+    dates: Mar 2021 – Present
+    note: Springfield, USA · Promoted from Backend Engineer
+    bullets:
+      - "**Payments:** Built a payment-provider integration layer (Python, FastAPI)
+        processing thousands of transactions per day with idempotent retries."
+      - "**Migration:** Led the monolith-to-microservices migration (Docker, AWS ECS),
+        cutting deploy time from 40 to under 10 minutes."
+      - "**Mentoring:** Mentor 3 junior engineers; run code reviews and design sessions."
+  - company: Initech
+    role: Backend Engineer
+    dates: Jun 2018 – Feb 2021
+    bullets:
+      - Built REST APIs and background jobs (Django, Celery, PostgreSQL) for a B2B
+        invoicing product used by 400+ companies.
+education:
+  - item: "**State University** — B.S. in Computer Science"
+    dates: 2012 – 2016
+certifications:
+  - item: AWS Certified Developer – Associate
+    dates: "2022"
+skills:
+  - label: Languages
+    items: Python, SQL, JavaScript
+  - label: Backend
+    items: FastAPI, Django, Celery, REST APIs, microservices, PostgreSQL, Redis
+  - label: Cloud & DevOps
+    items: AWS (ECS, Lambda, S3), Docker, Terraform, CI/CD, GitHub Actions
+  - label: Spoken Languages
+    items: English (native), Spanish (professional working)

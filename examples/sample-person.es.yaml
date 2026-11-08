@@ -1,0 +1,44 @@
+# Persona ficticia — plantilla, demo y fixture de tests. Copia a cvs/ para personas reales.
+lang: es
+max_pages: 1
+name: Sam Rivera
+headline: Ingeniero Backend
+contact:
+  - "Springfield, USA · +1 555 010 0100 · sam.rivera@example.com"
+  - "linkedin.com/in/sample · github.com/sample"
+summary: >-
+  Ingeniero Backend con 6+ años construyendo APIs y pipelines de datos en Python.
+  Especializado en integraciones de pagos y sistemas orientados a eventos en AWS.
+  Lideró la migración de un monolito a microservicios que sirve 2M de peticiones/día.
+experience:
+  - company: Acme Corp
+    role: Ingeniero Backend Senior
+    dates: Mar 2021 – Presente
+    note: Springfield, USA · Promovido desde Ingeniero Backend
+    bullets:
+      - "**Pagos:** Construyó la capa de integración con proveedores de pago (Python,
+        FastAPI), procesando miles de transacciones diarias con reintentos idempotentes."
+      - "**Migración:** Lideró la migración de monolito a microservicios (Docker, AWS ECS),
+        reduciendo el tiempo de despliegue de 40 a menos de 10 minutos."
+      - "**Mentoría:** Mentor de 3 ingenieros junior; dirige code reviews y sesiones de diseño."
+  - company: Initech
+    role: Ingeniero Backend
+    dates: Jun 2018 – Feb 2021
+    bullets:
+      - Construyó APIs REST y jobs en segundo plano (Django, Celery, PostgreSQL) para un
+        producto B2B de facturación usado por 400+ empresas.
+education:
+  - item: "**State University** — B.S. en Ciencias de la Computación"
+    dates: 2012 – 2016
+certifications:
+  - item: AWS Certified Developer – Associate
+    dates: "2022"
+skills:
+  - label: Lenguajes
+    items: Python, SQL, JavaScript
+  - label: Backend
+    items: FastAPI, Django, Celery, APIs REST, microservicios, PostgreSQL, Redis
+  - label: Cloud & DevOps
+    items: AWS (ECS, Lambda, S3), Docker, Terraform, CI/CD, GitHub Actions
+  - label: Idiomas
+    items: Español (profesional), Inglés (nativo)
